@@ -10,8 +10,8 @@ function HeroSection() {
         {/* Left Component with Text and Button */}
         <div className="w-full md:w-1/2 h-full bg-transparent flex flex-col justify-center p-10">
           {/* Gradient Heading */}
-          <h1 className="text-8xl font-extrabold bg-gradient-to-r from-purple-500 via-orange-400 to-blue-500 bg-clip-text text-transparent">
-            Ship your <br/> dream
+          <h1 className="text-7xl font-extrabold bg-gradient-to-r from-purple-500 via-orange-400 to-blue-500 bg-clip-text text-transparent">
+          "Dishrus delivers budget-friendly<br/> entertainment".
           </h1>
 
           {/* Subtext */}
