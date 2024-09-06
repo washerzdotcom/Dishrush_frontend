@@ -1,5 +1,6 @@
 import React from 'react'
 import './herosection.css'
+import CardList from './CardLists'
 
 function HeroSection() {
   return (
@@ -26,7 +27,9 @@ function HeroSection() {
 
         {/* Right Component (Empty for now) */}
         <div className="w-full md:w-1/2 h-full bg-transparent flex items-center justify-center">
-          <p className="text-lg text-white">Right Component (Empty)</p>
+          {/* <p className="text-lg text-white">Right Component (Empty)</p> */}
+          <CardList direction="down" />
+          <CardList direction="up" />
         </div>
       </div>
     </div>
