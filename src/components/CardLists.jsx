@@ -56,7 +56,7 @@ const CardList = ({ direction }) => {
     >
       {/* Render the original and duplicated list of images for infinite scrolling */}
       {cards.concat(cards).map((imageSrc, index) => (
-        <Card key={index} imageSrc={imageSrc} />  // Pass the image source to the Card component
+        <Card key={index} imageSrc={imageSrc} i={index} />  // Pass the image source to the Card component
       ))}
     </motion.div>
   );

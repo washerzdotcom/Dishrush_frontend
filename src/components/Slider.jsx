@@ -32,7 +32,7 @@ const Carousel = () => {
 
     return (
      <>
-             <div className="max-w-full py-5">
+             <div className="max-w-full py-5 mt-7">
             <Slider {...settings}>
                 {brands.map((brand, index) => (
                     <div
