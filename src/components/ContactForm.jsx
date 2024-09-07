@@ -118,7 +118,6 @@ const ContactForm = () => {
             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-200 ease-in-out transform hover:scale-105 focus:scale-105"
           />
         </div>
-
         <div>
           <label className="block text-gray-700 font-medium mb-1" htmlFor="businessType">
             Business Type
@@ -131,9 +130,11 @@ const ContactForm = () => {
             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-200 ease-in-out transform hover:scale-105 focus:scale-105"
           >
             <option value="">Select Business Type</option>
-            <option value="Retail">Retail</option>
-            <option value="Services">Services</option>
-            <option value="Manufacturing">Manufacturing</option>
+            <option value="Hotel">Hotel</option>
+            <option value="Motel">Motel</option>
+            <option value="Hospital">Hospital</option>
+            <option value="Dormitory">Dormitory</option>
+            <option value="Commercial">Commercial</option>
             <option value="Other">Other</option>
           </select>
         </div>
