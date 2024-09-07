@@ -2,7 +2,7 @@ import React from "react";
 
 const MiddleChildCard = ({ title, image }) => {
   return (
-    <div className="bg-gradient-to-b from-white to-blue-100 rounded-lg shadow-lg p-6 w-full">
+    <div className="bg-gradient-to-b from-white to-blue-100 rounded-lg shadow-lg p-6 w-full mb-10 mt-10">
       <div className="flex justify-center mb-4">
         <img src={image} alt={title} className="w-25 h-25" />
       </div>
