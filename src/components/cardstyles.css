@@ -25,8 +25,8 @@
 
 /* cardstyles.css */
 .card {
-  width: 150px; /* Adjust width to fit your needs */
-  height: 170px; /* Adjust height to fit your needs */
+  width: 220px; /* Adjust width to fit your needs */
+  height: 250px; /* Adjust height to fit your needs */
   margin: 10px; /* Adjust margin for spacing between cards */
   overflow: hidden;
   border-radius: 8px;
