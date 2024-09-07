@@ -1,7 +1,12 @@
+// Card.js
 import React from "react";
 
-const Card = ({ children }) => {
-  return <div className="card">{children}</div>;
+const Card = ({ imageSrc }) => {
+  return (
+    <div className="card">
+      <img src={imageSrc} alt="Movie" className="card-image" />
+    </div>
+  );
 };
 
 export default Card;

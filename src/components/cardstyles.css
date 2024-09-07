@@ -22,3 +22,19 @@
   display: flex;
   gap: 40px;
 }
+
+/* cardstyles.css */
+.card {
+  width: 150px; /* Adjust width to fit your needs */
+  height: 170px; /* Adjust height to fit your needs */
+  margin: 10px; /* Adjust margin for spacing between cards */
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the card */
+}

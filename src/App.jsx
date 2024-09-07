@@ -3,6 +3,9 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Carousel from "./components/Slider";
 import Footer from "./components/Footer";
+// import CarouselComponent from "./components/SlidingCards";
+import DirectiveBussiness from "./components/DirectiveBussiness";
+
 
 export default function App() {
   return (
@@ -10,6 +13,7 @@ export default function App() {
     <Navbar/>
     <HeroSection/>
     <Carousel/>
+    <DirectiveBussiness/>
     <Footer/>
     </>
   )

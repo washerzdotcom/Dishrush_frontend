@@ -1,6 +1,6 @@
-import React from 'react'
-import './herosection.css'
-import CardList from './CardLists'
+import React from "react";
+import "./herosection.css";
+import CardList from "./CardLists";
 
 function HeroSection() {
   return (
@@ -10,19 +10,25 @@ function HeroSection() {
         {/* Left Component with Text and Button */}
         <div className="w-full md:w-1/2 h-full bg-transparent flex flex-col justify-center p-10">
           {/* Gradient Heading */}
-          <h1 className="text-7xl font-extrabold bg-gradient-to-r from-purple-500 via-orange-400 to-blue-500 bg-clip-text text-transparent">
-          "Dishrus delivers budget-friendly<br/> entertainment".
+          <h1 className="text-7xl font-extrabold text-white">    
+            {/* bg-gradient-to-r from-purple-500 via-orange-400 to-blue-500 bg-clip-text text-transparent */}
+            "Dishrus delivers budget-friendly
+            <br /> entertainment."
           </h1>
 
           {/* Subtext */}
           <p className="mt-4 text-lg text-gray-300">
-            Create a delightful online journey by optimizing your shipping process and everything surrounding it.
+            Dishrus can help you find right solution on right budget for your
+            hotel entertainment
           </p>
 
           {/* Button */}
-          <button className="mt-6 px-4 py-2 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700">
-            Sign up for free
+          <button className="mt-6 w-32 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+            Get a Free Quote
           </button>
+          <p className="mt-6 text-2xl text-gray-300">
+          Call (516)778-9366
+          </p>
         </div>
 
         {/* Right Component (Empty for now) */}
@@ -33,7 +39,7 @@ function HeroSection() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;
