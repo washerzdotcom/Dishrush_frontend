@@ -11,6 +11,7 @@ import ContactMapSection from "./components/ContactMapSection";
 import PromoSection from "./components/PromoSection";
 import FeaturesSection from "./components/FeaturesSection";
 
+import MiddleParentCard from "./components/MiddleCardParent";
 
 
 export default function App() {
@@ -20,9 +21,10 @@ export default function App() {
       <HeroSection />
       <Carousel />
       <DirectiveBussiness />
-      <TestimonialSlides/>
       <PromoSection/>
+      <MiddleParentCard/>
       <UpgradeComponent/>
+      <TestimonialSlides/>
       <FeaturesSection/>
       <ContactMapSection/>
       <Footer />
